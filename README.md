@@ -7,7 +7,7 @@ Free, read-only legal costs tools for **England and Wales**, built for AI assist
 - **REST API:** `https://www.dmdcosts.co.uk/api/tools`, documented in OpenAPI at `https://www.dmdcosts.co.uk/openapi.json`.
 - **Every tool, for people:** [dmdcosts.co.uk/legal-costs-help](https://www.dmdcosts.co.uk/legal-costs-help).
 
-39 tools, server version 1.17.0. Each tool runs the same code as its page on dmdcosts.co.uk. Every answer is plain text an assistant can quote, citing its rule, with a link to the page and the date the rules were last checked. Over MCP the answer comes once, as text, to keep the tokens down; the REST API also returns it as structured JSON.
+39 tools, server version 1.17.1. Each tool runs the same code as its page on dmdcosts.co.uk. Every answer is plain text an assistant can quote, citing its rule, with a link to the page and the date the rules were last checked. Over MCP the answer comes once, as text, to keep the tokens down; the REST API also returns it as structured JSON.
 
 ## Connect
 
