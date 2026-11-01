@@ -10,7 +10,7 @@
       "name": "dmd-costs",
       "source": "./",
       "description": "Free, read-only legal costs tools for England and Wales from DMD Costs: CPR deadlines, detailed assessment, Part 36, fixed costs, court fees and interest, each answer citing the rule.",
-      "version": "1.15.0"
+      "version": "1.16.0"
     }
   ]
 }

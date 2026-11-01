@@ -9,7 +9,7 @@ Use the DMD Costs tools (MCP server `dmd-costs`) for the costs side of civil cla
 
 - **Deadlines:** `calculate_cpr_deadline`, `calculate_detailed_assessment_deadlines`, `calculate_deemed_service`, `calculate_limitation_period`, `calculate_pre_action_protocol_deadlines`, `check_appeal_route_and_deadline`, `calculate_judicial_review_time_limits`, `calculate_statutory_demand_deadlines`, `calculate_employment_tribunal_time_limit`, `calculate_part_35_and_part_18_dates`, `calculate_fast_track_timetable`.
 - **Money:** `calculate_part_36_offer`, `calculate_interest_on_costs`, `calculate_judgment_interest`, `calculate_interest_on_damages`, `calculate_civil_court_fees`, `find_court_fee_by_form`, `calculate_fixed_costs`, `check_small_claims_costs`, `calculate_litigant_in_person_costs`, `check_vat_on_costs`, `calculate_court_of_protection_fixed_costs`, `calculate_employment_tribunal_costs`.
-- **Checks and reference:** `search_legal_costs_help`, `look_up_cpr_costs_rule`, `explain_costs_order`, `check_relief_from_sanctions`, `check_security_for_costs`, `check_solicitors_act_assessment`, `check_cpr_21_10_approval`, `check_enforcement_options`, `check_awaabs_law_timescales`, `get_statement_of_truth_wording`, `look_up_j_codes`, `find_detailed_assessment_court`.
+- **Checks and reference:** `search_legal_costs_help`, `search_costs_guides`, `look_up_cpr_costs_rule`, `explain_costs_order`, `check_relief_from_sanctions`, `check_security_for_costs`, `check_solicitors_act_assessment`, `check_cpr_21_10_approval`, `check_enforcement_options`, `check_awaabs_law_timescales`, `get_statement_of_truth_wording`, `look_up_j_codes`, `find_detailed_assessment_court`.
 
 How to answer:
 1. If a date or amount the tool needs is missing, ask for it rather than guessing.

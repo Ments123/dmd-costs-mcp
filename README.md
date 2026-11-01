@@ -6,7 +6,7 @@ Free, read-only legal costs tools for **England and Wales**, built for AI assist
 - **REST API:** `https://www.dmdcosts.co.uk/api/tools`, documented in OpenAPI at `https://www.dmdcosts.co.uk/openapi.json`.
 - **Every tool, for people:** [dmdcosts.co.uk/legal-costs-help](https://www.dmdcosts.co.uk/legal-costs-help).
 
-38 tools, server version 1.15.0. Each tool runs the same code as its page on dmdcosts.co.uk. Every answer comes back as structured data and as plain text an assistant can quote, with a link to the page and the date the rules were last checked.
+39 tools, server version 1.16.0. Each tool runs the same code as its page on dmdcosts.co.uk. Every answer comes back as structured data and as plain text an assistant can quote, with a link to the page and the date the rules were last checked.
 
 ## Connect
 
@@ -52,6 +52,7 @@ gemini extensions install https://github.com/Ments123/dmd-costs-mcp
 | Tool | What it is | What it does |
 |---|---|---|
 | `search_legal_costs_help` | Legal costs help and glossary | Answers costs questions from solicitors in England and Wales, on either side of a claim: budgets, Part 36, settlement, detailed assessment, interest and getting paid. |
+| `search_costs_guides` | DMD Costs guides and case notes | Searches the guides and case notes DMD Costs has published on legal costs in England and Wales: detailed assessment, Part 36 offers, fixed costs, payments on account, housing disrepair, clinical negligence and MoD noise-induced hearing loss (NIHL) costs, and recent costs judgments. |
 | `look_up_cpr_costs_rule` | CPR costs rules lookup (Parts 3, 25, 36 and 44 to 47) | Looks up the costs rules of the Civil Procedure Rules in England and Wales, rule by rule, by number or by words: Parts 44 to 47 (general rules, fixed costs, special cases, detailed assessment), the costs rules of Part 36, costs budgeting and capping in Part 3 and security for costs in Part 25. |
 | `get_statement_of_truth_wording` | Statement of truth wording (CPR Part 22, PD 22, FPR Part 17) | Gives the exact wording of a statement of truth in England and Wales for the document and the person signing, copied word for word from its source and cited to the paragraph: statements of case and application notices (PD 22 para 2.1, naming the party where a legal representative, company officer or litigation friend's representative signs, or in a separate document under para 2.5), witness statements (PD 32 para 20.2, with the PD 57AC confirmation and certificate in the Business and Property Courts), expert reports (PD 35 para 3.3), certificates of service (Form N215), certificates of suitability (CPR 21.5(4), an adaptation, labelled so), signers unable to read (PD 22 para 2.4), costs budgets (PD 22 para 2.3), and family statements of case and witness statements (PD 17A). |
 | `calculate_cpr_deadline` | CPR deadline calculator (CPR 2.8 clear days and time limits) | Works out a deadline under the Civil Procedure Rules in England and Wales from a date: clear days (CPR 2.8(2) and (3)), the 5-day rule (CPR 2.8(4)), calendar months (CPR 2.10), court office closures (CPR 2.8(5) and PD 2A) and the latest days to email or post a document for deemed service (CPR 6.26). |
