@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Ments123/dmd-costs-tools",
+  "title": "DMD Costs legal costs tools",
+  "description": "Free legal costs tools for England and Wales: CPR deadlines, Part 36, fixed costs, court fees, interest.",
+  "version": "1.15.0",
+  "websiteUrl": "https://www.dmdcosts.co.uk/legal-costs-help",
+  "repository": {
+    "url": "https://github.com/Ments123/dmd-costs-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.dmdcosts.co.uk/mcp"
+    }
+  ]
+}
