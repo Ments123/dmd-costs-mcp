@@ -32,6 +32,21 @@ claude mcp add --transport http dmd-costs https://www.dmdcosts.co.uk/mcp
 
 **ChatGPT:** where your plan allows custom connectors, add a connector with the URL `https://www.dmdcosts.co.uk/mcp` and no authentication. A GPT or another tool that uses OpenAPI actions can import `https://www.dmdcosts.co.uk/openapi.json` instead.
 
+**VS Code, in one click:** [Install in VS Code](https://vscode.dev/redirect/mcp/install?name=dmd-costs&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fwww.dmdcosts.co.uk%2Fmcp%22%7D).
+
+**Claude Code plugin.** This repository is also a plugin marketplace. The plugin adds the server and a skill that tells Claude when to use these tools for costs questions:
+
+```text
+/plugin marketplace add Ments123/dmd-costs-mcp
+/plugin install dmd-costs@dmd-costs
+```
+
+**Gemini CLI extension:**
+
+```bash
+gemini extensions install https://github.com/Ments123/dmd-costs-mcp
+```
+
 ## Tools
 
 | Tool | What it is | What it does |

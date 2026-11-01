@@ -1,0 +1,21 @@
+{
+  "name": "dmd-costs",
+  "version": "1.15.0",
+  "description": "Free, read-only legal costs tools for England and Wales from DMD Costs: CPR deadlines, detailed assessment, Part 36, fixed costs, court fees and interest, each answer citing the rule. Adds the DMD Costs MCP server and a skill that tells Claude when to use it.",
+  "author": {
+    "name": "DMD Costs",
+    "url": "https://www.dmdcosts.co.uk"
+  },
+  "homepage": "https://github.com/Ments123/dmd-costs-mcp",
+  "repository": "https://github.com/Ments123/dmd-costs-mcp",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://www.dmdcosts.co.uk/privacy-policy",
+  "keywords": [
+    "legal",
+    "legal-costs",
+    "england-and-wales",
+    "civil-procedure",
+    "cpr",
+    "mcp"
+  ]
+}

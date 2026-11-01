@@ -1,0 +1,11 @@
+{
+  "name": "dmd-costs",
+  "version": "1.15.0",
+  "description": "Free, read-only legal costs tools for England and Wales from DMD Costs: CPR deadlines, detailed assessment, Part 36, fixed costs, court fees and interest, each answer citing the rule.",
+  "mcpServers": {
+    "dmd-costs": {
+      "httpUrl": "https://www.dmdcosts.co.uk/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
