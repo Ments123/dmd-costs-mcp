@@ -2,6 +2,7 @@
 
 Free, read-only legal costs tools for **England and Wales**, built for AI assistants. A remote MCP server (Streamable HTTP) run by [DMD Costs](https://www.dmdcosts.co.uk), law costs draftsmen in Westhoughton, Bolton.
 
+- **In Claude's Connectors Directory:** [claude.ai/directory/dmd-costs](https://claude.ai/directory/dmd-costs), so Claude users can connect it in one click.
 - **MCP endpoint:** `https://www.dmdcosts.co.uk/mcp`. No key and no sign-up.
 - **REST API:** `https://www.dmdcosts.co.uk/api/tools`, documented in OpenAPI at `https://www.dmdcosts.co.uk/openapi.json`.
 - **Every tool, for people:** [dmdcosts.co.uk/legal-costs-help](https://www.dmdcosts.co.uk/legal-costs-help).
@@ -10,7 +11,7 @@ Free, read-only legal costs tools for **England and Wales**, built for AI assist
 
 ## Connect
 
-**Claude** (claude.ai or Claude Desktop): Settings → Connectors → Add custom connector, then enter the URL `https://www.dmdcosts.co.uk/mcp`. No authentication is needed.
+**Claude** (claude.ai, Claude Desktop and the mobile apps): open [DMD Costs in the Connectors Directory](https://claude.ai/directory/dmd-costs) and connect it in one click. Or go to Settings → Connectors → Add custom connector and enter the URL `https://www.dmdcosts.co.uk/mcp`. No authentication is needed.
 
 **Claude Code:**
 
@@ -33,6 +34,8 @@ claude mcp add --transport http dmd-costs https://www.dmdcosts.co.uk/mcp
 **ChatGPT:** where your plan allows custom connectors, add a connector with the URL `https://www.dmdcosts.co.uk/mcp` and no authentication. A GPT or another tool that uses OpenAPI actions can import `https://www.dmdcosts.co.uk/openapi.json` instead.
 
 **VS Code, in one click:** [Install in VS Code](https://vscode.dev/redirect/mcp/install?name=dmd-costs&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fwww.dmdcosts.co.uk%2Fmcp%22%7D).
+
+**Cursor, in one click:** [Add to Cursor](https://cursor.com/install-mcp?name=dmd-costs&config=eyJ1cmwiOiJodHRwczovL3d3dy5kbWRjb3N0cy5jby51ay9tY3AifQ%3D%3D).
 
 **Claude Code plugin.** This repository is also a plugin marketplace. The plugin adds the server and a skill that tells Claude when to use these tools for costs questions:
 
